@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,700,900);
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #333333;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+*::-moz-selection {
+  background: tomato;
+  color: white;
+}
+
+*::selection {
+  background: tomato;
+  color: white;
+}
+
+*::-moz-selection {
+  background: tomato;
+  color: white;
+}
+
+*::-webkit-selection {
+  background: #333333;
+  color: white;
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+  background-color: #333333;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.75rem 1.75rem;
+  border: 1px solid white;
+  transition: all 0.5s ease-in-out;
+  border-radius: 2px;
+  margin: 0 1rem;
+}
+button:disabled, input[type=button]:disabled, input[type=reset]:disabled, input[type=submit]:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+  background-color: white;
+  color: #333333;
+}
+button:hover:disabled, input[type=button]:hover:disabled, input[type=reset]:hover:disabled, input[type=submit]:hover:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus {
+  outline: 0;
+}
+
+button:active, input[type=button]:active, input[type=reset]:active, input[type=submit]:active {
+  background-color: #333333;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 6rem 0 5rem 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2.75rem;
+}
+
+.timer {
+  margin: 0 0 7rem 0;
+  font-weight: 400;
+  font-size: 6rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+}
+.container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.form-inputs {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 48.8211739883%;
+  margin: 0 0 6rem 0;
+}
+.form-inputs:last-child {
+  margin-right: 0;
+}
+
+.pomodoro {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 100%;
+  text-align: center;
+}
+.pomodoro:last-child {
+  margin-right: 0;
+}
+
+.timer-options {
+  margin: 3rem 0 6rem 0;
+  color: white;
+  font-weight: 400;
+}
+
+input[type=number] {
+  cursor: pointer;
+  margin: 0 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  background-color: #333333;
+}
+input[type=number]:focus {
+  color: white;
+  outline: none;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.75);
+}
+
+label {
+  font-weight: 400;
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.progress-bar {
+  height: 7vh;
+  background-color: tomato;
+  transition: all 0.05s ease-in;
+}
+
+.progress-bar-line {
+  border-top: 1px solid white;
+}
+
+.mode-display {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
