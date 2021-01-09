@@ -12,5 +12,5 @@ Esta es una página web orientada a la tecnica pomodoro que en concreto dispone 
 Accede a la página desde [aquí](https://popopojgs.github.io/pomodoro/)
 
 Screenshots:
-![Pantallazo1](https://drive.google.com/file/d/159MycPc2JcessuGwDYHCvtadbWOcgFPl "Vista principal")
+![Pantallazo1](https://drive.google.com/file/d/159MycPc2JcessuGwDYHCvtadbWOcgFPl/view?usp=sharing "Vista principal")
 
