@@ -16,6 +16,19 @@ body {
   font-weight: 100;
 }
 
+a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+p {
+  color: white;
+  align-self:flex-end;
+  font-weight: 300;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
